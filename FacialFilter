@@ -14,8 +14,8 @@ public class FacialFilter implements PlugInFilter {
         int width = ip.getWidth();     
         int height = ip.getHeight();  
         float[] hsv = new float[3];  
-        int min = 0; 
-        int max = 255;
+        int min = 30; 
+        int max = 90;
 
         for (int col = 0; col < width; col++) {
             for (int row = 0; row < height; row++) {
