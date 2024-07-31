@@ -4,7 +4,7 @@ import ij.gui.*;
 import java.awt.*;
 import ij.plugin.filter.*;
 
-public class SatAndBright_Filter PlugInFilter {
+public class SatAndBright_Filter implements PlugInFilter {
 
     public int setup(String args, ImagePlus im) {
         return DOES_RGB + DOES_STACKS;
